@@ -1,0 +1,10 @@
+install flask:
+    pip3 install Flask
+
+create static folder and download bootstrap
+    mkdir static
+    cd static
+    wget https://github.com/StartBootstrap/startbootstrap-clean-blog/archive/refs/tags/v5.0.10.zip
+    unzip v5.0.10.zip
+    move dirs (css img js mail scss vendor) from startbootstrap??? folder up into static folder
+    delete startbootstrap??? folder and v5.0.10.zip
