@@ -8,3 +8,7 @@ create static folder and download bootstrap
     unzip v5.0.10.zip
     move dirs (css img js mail scss vendor) from startbootstrap??? folder up into static folder
     delete startbootstrap??? folder and v5.0.10.zip
+
+install heroku
+    npm install -g heroku
+
