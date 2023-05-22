@@ -19,4 +19,13 @@ see remote repositories
 push to heroku
     git push -u heroku main
 
-    
+create requirements.txt
+    - may need to reinstall flask here - (pip3 install Flask)
+    pip3 freeze --local > requirements.txt
+
+create Procfile
+    echo web: python run.py > Procfile
+    git add Procfile
+    git commit -m "add Procfile"
+
+
